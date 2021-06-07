@@ -1,0 +1,20 @@
+#nothingEl {
+  margin-top: 1vh;
+  height: 30vh;
+  background: #ffaabb;
+  border: 2px solid black;
+}
+
+#debounceEl {
+  margin-top: 1vh;
+  height: 30vh;
+  background: #aabbff;
+  border: 2px solid black;
+}
+
+#throttleEl {
+  margin-top: 1vh;
+  height: 30vh;
+  background: #ccaabb;
+  border: 2px solid black;
+}
