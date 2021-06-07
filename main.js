@@ -51,4 +51,4 @@ document.querySelector('#debounceEl').onmousemove = debounce(() => {
 document.querySelector('#throttleEl').onmousemove = throttle(() => {
   const span = document.querySelector('#throttleEl span')
   span.textContent = String(parseInt(span.textContent) + 1)
-}, 200)
+}, 500)
