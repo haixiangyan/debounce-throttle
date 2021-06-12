@@ -7,7 +7,7 @@ function debounce(fn, delay) {
     clearTimeout(timerId) // 以后再次调用的时候会清除掉
 
     timerId = setTimeout(() => {
-      fn.apply(context, arguments)  // 到点执行
+      fn.apply(context, args)  // 到点执行
     }, delay)
   }
 
